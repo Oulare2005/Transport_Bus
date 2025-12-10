@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "832452377234",
+    "project_id": "transportbus-bedf1",
+    "storage_bucket": "transportbus-bedf1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832452377234:android:ee29def62a25097e13c44b",
+        "android_client_info": {
+          "package_name": "uqac.dim.transportbus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8NkH55KnJF_a4HKhuh6g9cYNKuvkVUN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

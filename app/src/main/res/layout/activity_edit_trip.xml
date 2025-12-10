@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Dropdown pour sélectionner un trajet -->
+    <Spinner
+        android:id="@+id/tripSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
+
+    <!-- Champs de saisie pour mettre à jour les informations -->
+    <EditText
+        android:id="@+id/newDepartureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouveau départ"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/newDestinationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouvelle destination"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/newDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouvelle date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/newTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouvelle heure"
+        android:inputType="time" />
+
+    <!-- Bouton pour mettre à jour le trajet -->
+    <Button
+        android:id="@+id/updateTripButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mettre à jour le trajet" />
+
+</LinearLayout>
